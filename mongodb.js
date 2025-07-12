@@ -20,7 +20,7 @@ async function main(){
     }
     // await collection.insertMany([data]);
     // const findResult=await collection.updateOne({last_name:"anil"},{$set:{first_name:"buddithalli"}});
-    // const removeItem= await collection.deleteMany({first_name:"buddithalli"});
+ const removeItem= await collection.deleteMany({first_name:"buddithalli"});
     const result=await collection.find({}).toArray();
 
 
